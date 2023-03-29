@@ -1,0 +1,8 @@
+button{
+    height:50px;
+    color:white;
+    background-color: grey;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: center;
+}
