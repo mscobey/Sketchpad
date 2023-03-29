@@ -1,8 +1,28 @@
+:root{
+    --grid-cols:1;
+    --grid-rows:1;
+}
+*{
+    margin:0;
+    padding:0;
+}
 button{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
     height:50px;
-    color:white;
-    background-color: grey;
+    color:black;
+    background-color: lightgrey;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    align-self: center;
+}
+.container{
+    display:grid;
+    grid-gap:1px;
+    grid-template-rows: repeat(var(--grid-rows),9px);
+    grid-template-columns: repeat(var(--grid-cols),9px);
+    justify-content: center;
+}
+#colorLabel,#color{
+    display:inline-block;
 }
